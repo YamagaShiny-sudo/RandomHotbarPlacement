@@ -23,7 +23,8 @@ timeSwitch = 0.1
 #Pick one random slot of the hotbar
 def random_pick():
     #Change the value to be between 0 and 9
-    randomKey = random.randint(0,2)
+    keyRang = 3
+    randomKey = random.randint(0,keyRang)
 
     keyboard.send(listeKey[randomKey])
 
